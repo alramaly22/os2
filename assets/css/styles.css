@@ -502,6 +502,45 @@ body.dark-theme {
 
 /*=============== WORK ===============*/
 
+.rehabilitation {
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.rehab__column {
+    background: var(--container-color);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px var(--shadow-color);
+}
+
+.rehab__title {
+    font-size: var(--h2-font-size);
+    margin-bottom: 1rem;
+}
+
+.rehab__stages {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.rehab__stage h4 {
+    font-size: var(--h3-font-size);
+    margin-bottom: 1rem;
+}
+
+.video__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+}
+
+.video__grid video {
+    width: 100%;
+    border-radius: 8px;
+}
+
 
 /*=============== TESTIMONIAL ===============*/
 
